@@ -27,7 +27,7 @@ const writeLogFile = async (contents) => {
   }
   catch(e) {
     console.error("Error writing file to system")
-    console.log(`Message contents :\n\n${content}`)
+    console.log(`Message contents :\n\n${contents}`)
   }
 }
 
